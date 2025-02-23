@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Uplifting Quote</title>
     <link rel="stylesheet" href="../styles/navbar.css" />
+    <link rel="stylesheet" href="../styles/page-content.css" />
+    <link rel="stylesheet" href="../styles/quote.css" />
   </head>
   <body>
     <div class="nav-bar">
@@ -40,6 +42,14 @@
         </a>
       </div>
     </div>
-    <script src="../scripts/home.js"></script>
+    <div id="content-container">
+      <div id="content-item">
+        <h2>Quote Generator</h2>
+        <div id="quoteHTML">"The grass is always greener on the other side."</div>
+        <div id="authorHTML"></div>
+        <button id="newQuote">Get Quote</button>
+      </div>
+    </div>
+    <script src="../scripts/quote.js"></script>
   </body>
 </html>
