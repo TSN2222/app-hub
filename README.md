@@ -1,2 +1,2 @@
 # app-hub
-A hub for multiple features
+A hub for API practice
